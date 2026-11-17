@@ -11,7 +11,7 @@
     "node": ">=18"
   },
   "bin": {
-    "sharetribe-cli": "target/min.js"
+    "sharetribe": "target/min.js"
   },
   "files": [
     "target/min.js"

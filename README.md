@@ -26,14 +26,14 @@ yarn global add sharetribe-cli
 To verify the installation and to see available commands, run:
 
 ``` bash
-sharetribe-cli
+sharetribe
 ```
 
 ### Troubleshooting
 
-#### sharetribe-cli: command not found (on Windows)
+#### sharetribe: command not found (on Windows)
 
-If you're seeing `sharetribe-cli: command not found` error on Windows and you installed Sharetribe CLI with Yarn, you need to add Yarn global bin path to the PATH environment varible.
+If you're seeing `sharetribe: command not found` error on Windows and you installed Sharetribe CLI with Yarn, you need to add Yarn global bin path to the PATH environment varible.
 
 1. Run `yarn global bin` to see the global bin path
 2. Add it to PATH environment variable

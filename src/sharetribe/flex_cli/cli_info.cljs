@@ -1,4 +1,4 @@
 (ns sharetribe.flex-cli.cli-info)
 
-(def ^:const bin "sharetribe-cli")
+(def ^:const bin "sharetribe")
 (def ^:const version "1.17.1")

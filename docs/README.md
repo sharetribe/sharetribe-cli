@@ -3,7 +3,7 @@
 ## Development
 
 Use `.env.edn` file to set `"FLEX_API_BASE_URL"` to point to different environments (local, staging, prod ... )
-Set `:api-key` in `~/.config/flex-cli/auth.edn` file to quickly change API key (or use `sharetribe-cli login`)
+Set `:api-key` in `~/.config/flex-cli/auth.edn` file to quickly change API key (or use `sharetribe login`)
 
 ### Development using Cursive Emacs & Cider
 
@@ -131,13 +131,8 @@ yarn global add file:$(pwd)
 Run it:
 
 ```
-sharetribe-cli
+sharetribe
 ```
-
-**Troubleshooting:** If nothing happens, press Ctrl+C. You probably
-ran the other [flex command line
-tool](https://github.com/westes/flex). Restart your terminal and try
-again.
 
 ## Testing NPM publishing
 
