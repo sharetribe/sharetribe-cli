@@ -1,9 +1,9 @@
-# Flex CLI
+# Sharetribe CLI
 
 ## Development
 
 Use `.env.edn` file to set `"FLEX_API_BASE_URL"` to point to different environments (local, staging, prod ... )
-Set `:api-key` in `~/.config/flex-cli/auth.edn` file to quickly change API key (or use `flex-cli login`)
+Set `:api-key` in `~/.config/flex-cli/auth.edn` file to quickly change API key (or use `sharetribe login`)
 
 ### Development using Cursive Emacs & Cider
 
@@ -131,13 +131,8 @@ yarn global add file:$(pwd)
 Run it:
 
 ```
-flex-cli
+sharetribe
 ```
-
-**Troubleshooting:** If nothing happens, press Ctrl+C. You probably
-ran the other [flex command line
-tool](https://github.com/westes/flex). Restart your terminal and try
-again.
 
 ## Testing NPM publishing
 
@@ -149,10 +144,10 @@ See the [installation
 instructions](https://verdaccio.org/docs/en/installation.html).
 
 After you've installed it and started verdaccio server, you can
-publish flex-cli to it, e.g.:
+publish sharetribe-cli to it, e.g.:
 
 ``` bash
-npm install -g flex-cli --registry http://localhost:4873
+npm install -g sharetribe-cli --registry http://localhost:4873
 ```
 
 **Tip:** In case you want to test installation with other machines in
