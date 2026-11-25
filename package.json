@@ -1,7 +1,7 @@
 {
-  "name": "sharetribe-cli",
+  "name": "@sharetribe/cli",
   "description": "Sharetribe CLI",
-  "version": "1.17.1",
+  "version": "2.0.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
   "files": [
     "target/min.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "rm -rf target/*",
     "dev": "node target/dev.js",

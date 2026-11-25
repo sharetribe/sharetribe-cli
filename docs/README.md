@@ -147,7 +147,7 @@ After you've installed it and started verdaccio server, you can
 publish sharetribe-cli to it, e.g.:
 
 ``` bash
-npm install -g sharetribe-cli --registry http://localhost:4873
+npm install -g @sharetribe/cli --registry http://localhost:4873
 ```
 
 **Tip:** In case you want to test installation with other machines in

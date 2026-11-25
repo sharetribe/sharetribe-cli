@@ -14,13 +14,13 @@ credentials to Console where you can generate new API keys in [your account's "M
 Install with NPM:
 
 ``` bash
-npm install --global sharetribe-cli
+npm install --global @sharetribe/cli
 ```
 
 or with Yarn:
 
 ``` bash
-yarn global add sharetribe-cli
+yarn global add @sharetribe/cli
 ```
 
 To verify the installation and to see available commands, run:
