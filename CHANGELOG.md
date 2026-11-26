@@ -6,6 +6,9 @@ The format is based on [Keep a
 Changelog](http://keepachangelog.com/en/1.0.0/) and this project
 adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [v2.0.0] - 2026-11-25
+- Breaking: rename package to '@sharetribe/cli' and usage to 'sharetribe'. [#127](https://github.com/sharetribe/flex-cli/pull/127)
+
 ## [v1.17.1] - 2026-09-25
 - Print validation error details [#124](https://github.com/sharetribe/flex-cli/pull/124)
 
